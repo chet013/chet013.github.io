@@ -1,0 +1,108 @@
+.statistics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.statistics__text {
+    width: 592px;
+}
+
+.statistics__title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--text-dark-color);
+}
+
+.statistics__description {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--dark-grey-color);
+}
+
+.statistics__image {
+    background-image: url("../images/middle-bg.jpg");
+    width: 592px;
+    height: 448px;
+}
+
+@media (max-width: 768px) {
+    .statistics__image {
+        width: 351px;
+        height: 265px;
+        background-size: cover
+    }
+    .statistics {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 56px;
+        margin-bottom: 56px;
+    }
+    .statistics__text {
+        width: 352px;
+    }
+    .statistics__title {
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 24px;
+        color: var(--text-dark-color);
+    }
+}
+
+@media (max-width: 375px) {
+    .statistics {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 56px;
+    }
+    .statistics__title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--text-dark-color);
+        margin-top: 7px;
+    }
+    .statistics__image {
+        width: 342px;
+        height: 258px;
+        background-size: cover
+    }
+    .statistics__description {
+        text-align: center;
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: var(--dark-grey-color);
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .statistics__title {
+        margin-top: 27px;
+    }
+    .statistics__image {
+        width: 288px;
+        height: 218px;
+        background-size: cover
+    }
+    .statistics__description {
+        margin-top: 27px;
+        text-align: center;
+        max-width: 288px;
+    }
+    .statistics__text {
+        width: 288px;
+    }
+}
+

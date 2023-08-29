@@ -1,0 +1,125 @@
+.intro {
+    position: relative;
+    padding-bottom: 313px;
+    background-image: url("../images/intro-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro::after {
+    position: absolute;
+    top: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    background-color: #2A6CEA;
+}
+
+.intro__button-wrapper {
+    position: relative;
+    display: none;
+}
+
+.intro__menu-button {
+    width: 24px;
+    height: 14px;
+    opacity: 0%;
+    position: absolute;
+    top: 2px;
+    display: none;
+    cursor: pointer;
+}
+
+.intro__header {
+    position: relative;
+    z-index: 1;
+}
+
+.intro__content {
+    margin: 233px auto 0;
+    width: 748px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.intro__title {
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 64px;
+    color: var(--text-light-color);
+}
+
+.intro__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--text-light-color);
+} 
+
+.intro__button {
+    margin-top: 92px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--text-dark-color);
+}
+
+@media (max-width: 768px) {
+    .intro {
+        padding-bottom: 398px;
+    }
+    .intro__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .intro__content {
+        width: 100%;
+        margin: 317px auto 0;
+    }
+    .intro__button-wrapper {
+        position: relative;
+        display: block;
+    }
+    .intro__menu-button {
+        width: 24px;
+        height: 14px;
+        opacity: 0%;
+        position: absolute;
+        top: 2px;
+        display: block;
+    }
+}
+
+@media (max-width: 375px) {
+    .intro {
+        padding-bottom: 172px;
+    }
+    .intro__title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .intro__content {
+        margin: 92px auto 0;
+    }
+
+    .intro__button {
+        margin-top: 26px;
+    }
+}
+
+@media (max-width: 320px) {
+    .intro {
+        padding-bottom: 129px;
+    }
+    .intro__content {
+        margin: 48px auto 0;
+    }
+
+    .intro__button {
+        margin-top: 26px;
+    }
+}

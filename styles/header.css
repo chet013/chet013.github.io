@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.menu {
+    display: flex;
+}
+
+
+.menu__item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.menu__link {
+    line-height: 28px;
+    font-size: 16px;
+    color: var(--text-light-color);
+}
+
+.menu__link:hover {
+    border-bottom: 1px solid var(--text-light-color);
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
+

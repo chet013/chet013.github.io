@@ -1,0 +1,49 @@
+body {
+    font-family: 'Graphik LCG', sans-serif;
+    background-color: var(--primary-light-color);
+}
+
+ul, menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.notActive {
+    display: none;
+}
+
+.container {
+    width: 1216px;
+    margin: 0 auto;
+    
+}
+
+.button {
+    border-radius: 4px;
+    border: none;
+    background-color: var(--grey-color);
+    color: var(--text-dark-color);
+    padding: 20px 40px;
+}
+
+@media (max-width: 1236px) {
+    .container {
+        box-sizing: border-box;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+    }
+}
+
+
+

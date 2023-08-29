@@ -1,0 +1,37 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__circles {
+    display: flex;
+    align-items: center;
+}
+
+.logo__circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.logo__circle:first-child {
+    z-index: 1;
+    background-color: var(--primary-color);
+}
+
+.logo__circle:last-child {
+    margin-left: -11px;
+    background-color: var(--grey-color);
+}
+
+.logo__text {
+    margin-left: 9px;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 20px;
+    color: var(--text-light-color);
+}
+
+.logo__text--mobile {
+    color: var(--text-dark-color);
+}

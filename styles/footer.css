@@ -1,0 +1,16 @@
+.emptyblock {
+    height: 80px;
+}
+
+.footer {
+    padding: 28px 0;
+    border-top: 2px solid var(--light-grey-color);
+    text-align: center;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--text-dark-color);
+}
