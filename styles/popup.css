@@ -4,7 +4,7 @@
     z-index: 2;
 }
 
-.menu-mobile {
+.popup__mobile {
     overflow: hidden;
     position: fixed;
     left: 0;
@@ -16,14 +16,14 @@
     background-color: var(--primary-light-color);
 }
 
-.logo-mobile {
+.popup__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 28px;
 }
 
-.button__exet {
+.popup__button-exet {
     width: 20px;
     height: 20px;
     border: none;
@@ -31,7 +31,7 @@
     opacity: 0;
 }
 
-.closeModal {
+.popup__exet-closeModal {
 	position: absolute;
 	top: 29px;
 	right: 15px;
@@ -39,8 +39,8 @@
 	height: 20px;
 }
 
-.closeModal::before,
-.closeModal::after {
+.popup__exet-closeModal::before,
+.popup__exet-closeModal::after {
 	content: '';
 	position: absolute;
 	top: 10px;
@@ -50,28 +50,28 @@
 	background: #000;
 }
 
-.closeModal::before {
+.popup__exet-closeModal::before {
 	transform: rotate(45deg);
 }
 
-.closeModal::after {
+.popup__exet-closeModal::after {
 	transform: rotate(-45deg);
 }
 
-.menu-mobile__item {
+.popup__menu-item {
     display: flex;
     align-items: center;
     height: 65px;
     border-top: 1px solid var(--grey-color);
 }
 
-.menu-mobile__item:last-child {
+.popup__menu-item:last-child {
     height: 65px;
     border-top: 1px solid var(--grey-color);
     border-bottom: 1px solid var(--grey-color);
 }
 
-.menu-mobile__link {
+.popup__menu-link {
     width: 100%;
     display: flex;
     justify-content: space-between;

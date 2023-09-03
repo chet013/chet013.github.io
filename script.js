@@ -39,12 +39,12 @@ $('.intro__menu-button').click(function(){
     $('body').css('overflow','hidden');
 })
 
-$('.closeModal').click(function(){
+$('.popup__exet-closeModal').click(function(){
     $('.popup').addClass('notActive');
     $('body').css('overflow','visible');
 })
 
-$('.menu-mobile__link').click(function(){
+$('.popup__menu-link').click(function(){
     $('.popup').addClass('notActive');
     $('body').css('overflow','visible');
 })
