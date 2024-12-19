@@ -78,7 +78,7 @@ document.querySelector('.buttons').onclick = (event) => {
         return;
     }
 
-    if (display.value.length > 12) return
+    if (display.value.length > 14) return
 
 
     if (digits.includes(key)) {
